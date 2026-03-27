@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+      font-family: 'Tusker';
+
+}
+@font-face {
+  font-family: 'Tusker';
+  src: url('./Tusker.Grotesk/TuskerGrotesk-6500Medium.otf') format('opentype');
+  font-weight: 400;
+}
+
+.linha{
+        background-color: #008C15;
+        COLOR:#ffffff;
+        height: 5px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    
+}
+
+
+
+.logo{
+   width: 13%;
+   padding:30px;
+   cursor: pointer;
+ 
+}
+
+
+nav{
+    width: 30%;
+}
+
+
+
+
+ul{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;    
+    letter-spacing: 0.8px;
+    cursor: pointer;
+}
+
+li{
+    font-size: 17px;
+    color: #000000;
+}
+
+.a1 {
+  position: relative;
+  text-decoration: none;
+  color: black;
+}
+
+.a1::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: black;
+  transition: 0.3s;
+}
+
+.a1:hover::after {
+  width: 100%;
+}
+
+.Banner1{
+  width: 100%;
+ 
+}
+
+.titulos{
+    text-align: center;
+    margin-bottom: 10px;
+}
+main{
+    
+    width: 100%;
+    position: absolute;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+h2,h1{
+    text-align: center;
+}
+
+h2{
+    margin-top: 10px;   
+    color: #FFC72C;
+    font-size: 40px;
+}
+.h2section3{
+    color: #008C15;
+    margin: 20px;
+}
+h1{
+    color: #008C15;
+    font-size: 70px;
+}
+
+
+
+.section1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+}
+
+.imagemIfood,.imagem99,.imagemKeeta{
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    transition: 1s;
+   
+}
+.imagemIfood:hover,.imagem99:hover,.imagemKeeta:hover{
+    transform: scale(1.1);
+}
+
+.section2{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #007712;
+    font-family: 'Tusker';
+    padding-bottom: 20px;
+    
+}
+
+
+.section3 {
+    width: 100%;
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 0.5fr );
+    margin: 0 auto;
+   
+    grid-template-rows: 1fr;
+    text-align: center;
+    gap: 15px;
+}
+
+.produto1{
+    width: 23rem;
+    height: 350px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    border: solid 1px rgb(216, 216, 216);
+    border-radius: 25px;
+    transition: 0.4s;
+}
+
+.produto1:hover{
+    background-color: #008C15;
+    color:#fff;
+    
+}
+
+.imagem{
+    border-radius: 25px;
+}
+
+.p1{
+    margin-top: 10px;
+    font-size: 24px;
+}   
+
+
+button{
+    width: 100px;
+    height: 40px;
+    border: none;
+    background-color: #FFC72C;
+    color:#fff;
+    font-size: 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.5s;
+    letter-spacing: 1.8px;
+}
+button:hover{
+    color: #02842e
+}
+.video{
+     margin-top: 20px;
+    width: 100%;
+   background: linear-gradient(180deg, #02842e 0%, #007027 50%, #004216 100%);       
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    margin-top: 20px;
+    width: 1000px;
+    background: transparent;
+    border-radius: 5px;
+    box-shadow: 0px 8px 10px  rgba(0,0,0, .5);
+    
+}
+
+footer{
+    width: 100%;
+    background-color: #004216;
+    display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Tusker';
+}
+
+.selo{
+    width: 90px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+.cor1{
+    color:#FFC72C;
+    font-size: 20px;
+    font-family: 'Tusker';
+    
+}
+
+.cor2{
+    color: #ffffff;
+    font-size: 20px;
+
+}
+
+
+span{
+    text-align: center;
+    color: #737373;
+    font-size: 13px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.nav1{
+    width: 20rem;}
+
+
+.li3{
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  transition: 0.5s; 
+}
+.li3:hover{
+    color: #FFC72C;
+}
+.nav2{
+    width: 40rem;
+}
+
+.li2{
+    color: #fff;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.li2:hover{
+    color: #FFC72C;
+}
+.nav3{
+    width: 75rem;
+    margin-top: -20px;
+}
+
+.li4{
+  font-size: 13px;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.li4:hover{
+    color: #FFC72C;
+}
